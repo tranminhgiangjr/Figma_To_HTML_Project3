@@ -25,7 +25,7 @@ a {
   padding: 15px 46px;
   background: #2e80ce;
   min-width: 205px;
-  /* height: 60px; */
+  height: 60px;
   border-radius: 30px;
   color: #fff;
   text-align: center;
@@ -64,16 +64,16 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #FFF;
+  background: #fff;
   cursor: pointer;
   transition: 0.25s;
 }
-.control__btn:hover{
-  background: #2E80CE;
-  border-color: #2E80CE;
+.control__btn:hover {
+  background: #2e80ce;
+  border-color: #2e80ce;
   color: #fff;
 }
-.control-icon--next{
+.control-icon--next {
   rotate: 180deg;
 }
 /* ======================= Header ======================== */
@@ -353,9 +353,6 @@ a {
   margin-top: 38px;
 }
 /* ============== team =================== */
-.team {
-  margin-bottom: 170px;
-}
 .team-header {
   text-align: center;
   margin: 0 auto;
@@ -401,4 +398,40 @@ a {
 .team-control {
   margin-top: 38px;
   justify-content: center;
+}
+/* Install */
+.install {
+  margin-top: 265px;
+}
+.install__inner {
+  border-radius: 4px;
+  height: 427px;
+  background: #2e80ce;
+  display: flex;
+  gap: 160px;
+  padding: 0px 70px;
+}
+.install__img {
+  width: 284px;
+  height: 522px;
+  position: relative;
+  top: -95px;
+}
+.install__heading {
+  margin-top: 76px;
+  width: 489px;
+  color: #fff;
+}
+.install__desc {
+  width: 586px;
+  margin-top: 18px;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 30px;
+}
+.install__row{
+  margin-top: 38px;
+  display: flex;
+  gap: 28px;
 }
